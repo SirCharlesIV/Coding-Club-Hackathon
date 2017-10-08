@@ -34,7 +34,14 @@ a:visited {
 }
 
 body {
-    background-color: #486B99;
+    background-color: #FFFFFF;
+}
+
+p {
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-family: arial;
 }
 
 /*

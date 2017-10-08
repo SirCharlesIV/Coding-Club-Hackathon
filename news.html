@@ -3,8 +3,23 @@
 <head>
     <title>Club News</title>
     <link rel='stylesheet' href='index.css'>
+    <style>
+        span {
+            color: red;
+            font-weight: bold;
+        }
+        p {
+            text-align: left;
+            margin-left: 400px;
+        }
+        form {
+            text-align: left;
+            margin-left: 400px;
+        }
+    </style>
 </head>
 <body>
+    <h1 class='title'>Bulletin Board</h1>
     <div class='menu'>
         <h4 class='menu_items' style='padding-left: 5px;'><a href='index.html'>Home</a></h4>
         <h4 class='menu_items'><a href='about.html'>About Us</a></h4>
@@ -12,6 +27,29 @@
         <h4 class='menu_items'><a href='chat.html'>Chat</a></h4>
         <h4 class='menu_items' style='padding-right: 5px'><a href='donate.html'>Request Surplus Funding</a></h4>
     </div>
+    <br />
+    <br />
+    <div id='message_box'>
+        <p>
+        <span>Coding Club:</span> ALL CLUB MEMBERS: Do not forget about this week's mini hackathon, in which you are creating an app to integrate technology into extracurricular student activities. Any who do not participate will be removed from the club.
+        </p>
+        <p>
 
+        <span>Service Club:</span> For our first project of the year, we are having a car wash to raise money for Houston.
+        </p>
+
+        <p>
+        <span>STUCO:</span> It's Spirit Week boys! Don't forget to buy your homecoming tickets, available for $10 in the bookstore.
+        </p>
+
+        <p>
+        <span>Mock Trial:</span> Mock Trial is moving up in the world, click here to see the details.
+        </p>
+    </div>
+    <div style='text-align: center;'>
+            <button id='send_message'>Send a message!</button>
+    </div>
+
+<script type="text/javascript" src='message.js'></script>
 </body>
 </html>
