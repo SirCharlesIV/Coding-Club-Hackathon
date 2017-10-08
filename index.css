@@ -1,3 +1,46 @@
 .menu {
-    color: red;
+    clear: both;
+    margin-left: 300px;
 }
+
+.menu_items {
+    float: left;
+    font-family: arial;
+    color: red;
+    background-color: #486B99;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+.menu_items:hover {
+    background-color: #5787C8;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #1B31EA;
+}
+
+.title {
+    text-align: center;
+    color: #1B31EA;
+}
+
+body {
+    background-color: #486B99;
+}
+
+/*
+#486B99
+#5787C8
+background-color: #486B99;
+style='margin-left: 300px; border: 100px; float: left;'
+style='margin-left: 100px; float: left;'
+*/
