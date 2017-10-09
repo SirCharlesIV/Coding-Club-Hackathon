@@ -7,7 +7,7 @@
     float: left;
     font-family: arial;
     color: red;
-    background-color: #486B99;
+    background-color: #0d63e3;
     padding-right: 50px;
     padding-left: 50px;
     padding-top: 5px;
@@ -22,10 +22,12 @@
 
 a:link {
     text-decoration: none;
+    color: red;
 }
 
 a:visited {
-    color: #1B31EA;
+    color: #e01010;
+    color: red;
 }
 
 .title {
@@ -45,6 +47,7 @@ p {
 }
 
 /*
+#1B31EA
 #486B99
 #5787C8
 background-color: #486B99;
